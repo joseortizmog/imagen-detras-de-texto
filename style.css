@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    background-color: aliceblue;
+}
+.hero{
+    background: #fff;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+.texto{
+    width: 100%;
+    color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 200px;
+    font-weight: bold;
+    background-image: url(img1.jpg);
+    background-size: cover;
+    background-position-y: center;
+
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+
+}
